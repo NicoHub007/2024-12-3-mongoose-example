@@ -1,11 +1,16 @@
 {
-  "name": "2024-12-3-mongoose-example",
+  "name": "2024-12-03-mongoose-example",
   "version": "1.0.0",
+  "description": "this is an example using mongoose",
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
 }
